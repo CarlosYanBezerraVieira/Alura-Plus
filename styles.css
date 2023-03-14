@@ -23,6 +23,8 @@ body {
     background-image: url(img/Background.png);
     background-repeat: no-repeat;
     background-size: contain;
+    align-items: center;
+    text-align: center;
 
 }
 
@@ -32,6 +34,10 @@ body {
     grid-template-columns: 50% 50%;
 }
 
+.container__caixa {
+    margin: 0 6em;
+}
+
 .conatainer__botao {
     background-color: var(--botao-azul);
     border-radius: 5px;
@@ -39,6 +45,7 @@ body {
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .botao_secundario {
@@ -54,4 +61,8 @@ body {
 .container__titulo {
     font-size: 28px;
     font-weight: 700;
+}
+
+.container__image {
+    margin: 1em 0 2em 0;
 }
